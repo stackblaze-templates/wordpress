@@ -6,6 +6,14 @@ The world's most popular content management system, powering over 40% of the web
 
 > **Credits**: Built on [WordPress](https://wordpress.org) by [WordPress Foundation](https://wordpressfoundation.org). All trademarks belong to their respective owners.
 
+## Local Development
+
+```bash
+docker compose up
+```
+
+See the project files for configuration details.
+
 ## Deploy on StackBlaze
 
 [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
@@ -93,14 +101,6 @@ flowchart LR
 **Best for:** Production workloads, high-traffic applications, business-critical deployments.
 
 </details>
-
-## Local Development
-
-```bash
-docker compose up
-```
-
-See the project files for configuration details.
 
 ---
 
