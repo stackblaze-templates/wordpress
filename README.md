@@ -1,4 +1,4 @@
-# WordPress [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/wordpress/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/wordpress)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
+# WordPress [![Version](https://img.shields.io/badge/version-6.7-21759b)](https://github.com/stackblaze-templates/wordpress) [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/wordpress/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/wordpress)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 <p align="center"><img src="logo.png" alt="wordpress" width="120"></p>
 
