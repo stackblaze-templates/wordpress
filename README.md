@@ -1,6 +1,18 @@
 # WordPress
 
-WordPress CMS with custom plugin development support.
+[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
+[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/wordpress/actions)
+[![License](https://img.shields.io/github/license/stackblaze-templates/wordpress)](LICENSE)
+
+The world's most popular content management system, powering over 40% of the web. This template includes a custom plugin scaffold for developing WordPress plugins.
+
+> **Credits**: Built on [WordPress](https://wordpress.org) by [WordPress Foundation](https://wordpressfoundation.org). All trademarks belong to their respective owners.
+
+## Deploy on StackBlaze
+
+[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
+
+This template includes a `stackblaze.yaml` for one-click deployment on [StackBlaze](https://stackblaze.com).
 
 ## Local Development
 
@@ -8,14 +20,16 @@ WordPress CMS with custom plugin development support.
 docker compose up
 ```
 
-Visit `http://localhost:8080` to complete WordPress setup.
+See the project files for configuration details.
 
-## Plugin Development
+---
 
-Custom plugins go in `wp-content/plugins/`. A starter plugin is included at `wp-content/plugins/starter-plugin/`.
+### Maintained by [StackBlaze](https://stackblaze.com)
 
-The plugin adds a REST API endpoint at `/wp-json/starter/v1/hello`.
+This template is actively maintained by StackBlaze. We perform **weekly automated checks** to ensure:
 
-## Deploy on StackBlaze
+- **Up-to-date dependencies** — frameworks, libraries, and base images are kept current
+- **Security scanning** — continuous monitoring for known vulnerabilities and CVEs
+- **Best practices** — configurations follow current recommendations from upstream projects
 
-This template includes a `stackblaze.yaml` that provisions WordPress with a MySQL database.
+Found an issue? [Open a ticket](https://github.com/stackblaze-templates/wordpress/issues).
