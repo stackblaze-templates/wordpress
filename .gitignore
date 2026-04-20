@@ -1,5 +1,9 @@
 *.log
 .env
+.env.local
+.env.*.local
+*.pem
+*.key
 wp-content/uploads/
 wp-content/upgrade/
 wp-content/cache/
