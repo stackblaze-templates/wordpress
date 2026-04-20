@@ -9,10 +9,15 @@ The world's most popular content management system, powering over 40% of the web
 ## Local Development
 
 ```bash
+cp .env.example .env   # fill in strong passwords before starting
 docker compose up
 ```
 
 See the project files for configuration details.
+
+> ⚠️ **Security note for production**: the default `.env.example` values are placeholders only.
+> You **must** set strong, unique values for `MYSQL_PASSWORD` and `MYSQL_ROOT_PASSWORD` before
+> deploying to any non-local environment. See [Production security](#production-security) below.
 
 ## Deploy on StackBlaze
 
@@ -101,6 +106,21 @@ flowchart LR
 **Best for:** Production workloads, high-traffic applications, business-critical deployments.
 
 </details>
+
+---
+
+## Production security
+
+| Environment variable | Purpose | Required in production |
+|---|---|---|
+| `MYSQL_PASSWORD` | MySQL user password for WordPress | ✅ Must be strong & unique |
+| `MYSQL_ROOT_PASSWORD` | MySQL root password | ✅ Must be strong & unique |
+| `MYSQL_USER` | MySQL username | Optional (defaults to `wordpress`) |
+| `MYSQL_DATABASE` | Database name | Optional (defaults to `wordpress`) |
+
+**Do not deploy with the placeholder passwords from `.env.example`.** Use a secrets manager or your platform's secret injection (StackBlaze manages DB credentials automatically via `stackblaze.yaml`).
+
+WordPress itself enforces a setup wizard on first run — there are no default admin credentials shipped with this template.
 
 ---
 
